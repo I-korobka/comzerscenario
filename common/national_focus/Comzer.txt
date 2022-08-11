@@ -1,0 +1,158 @@
+focus_tree = {
+	id = Comzer
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COM
+			COM_Comzer_repblic_DESC
+		}
+	}
+	default = no
+	focus = {
+		id = newfocus_0
+		text = COM_domestic_restructuring2
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		x = 0
+		y = 0
+
+	}
+	focus = {
+		id = newfocus_1
+		text = COM_domestic_restructuring
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		x = 21
+		y = 0
+			complate = reward
+			= = {
+					add_war_support = 0.1
+				}
+
+	}
+	focus = {
+		id = newfocus_4
+		text = COM_return_to_socialism
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		mutually_exclusive = {
+			focus = newfocus_2
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_7
+		text = COM_Breakthroughexecutivecommittee
+		icon = GFX_focus_POL_sanation_left
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_6
+		text = COM_JoiningSocialDemocrats
+		icon = GFX_focus_POL_sanation_right
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_5
+		text = COM_FatherNationtotheLeader
+		icon = GFX_focus_LAT_renew_kviesis_term
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_9
+		text = COM_korobkaSect
+		icon = GFX_focus_LAT_merge_presidential_titles
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_5
+		}
+		mutually_exclusive = {
+			focus = newfocus_8
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_8
+		text = COM_CoiyrSect
+		icon = GFX_focus_LAT_renew_kviesis_term
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_5
+		}
+		mutually_exclusive = {
+			focus = newfocus_9
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_2
+		text = COM_The_rise_of_neoconservatism
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		mutually_exclusive = {
+			focus = newfocus_3
+			focus = newfocus_4
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_3
+		text = COM_Delegation_of_power_to_federal_forces
+		icon = GFX_focus_POL_complete_april_constitution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		mutually_exclusive = {
+			focus = newfocus_2
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_10
+		text = COM_Advocating_New_Socialism
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_8
+		}
+		x = 15
+		y = 4
+
+	}
+}

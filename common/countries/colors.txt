@@ -1,0 +1,4 @@
+COM = {
+	color = rgb { 220 190 75 }
+	color_ui = rgb { 255 255 255 }
+}

@@ -1,0 +1,1 @@
+COM = "countries/comzer.txt"
